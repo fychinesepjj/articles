@@ -8,15 +8,15 @@
 1. 在代码中创建断点，如`app.js`。
 2. 进入调试模式(`ctrl+shift+D`)，点击配置，系统会自动创建launch.json文件。
 3. 修改入口文件，如`app.js`,点击左上角的绿色启动按钮即可。注:系统默认下拉选项为`启动程序`。
-![launch配置](../img/vscode_debug_attach.png)
+![launch配置](../img/vscode_debug_launch.png)
 
 ## Attach模式
 1. 在代码中创建断点
 2. `ctrl + ~` 启动终端，输入代码`node --debug-brk=5858 test.js` 端口号默认为5858，此时debugger进程在5858端口监听。
-![启动程序](../img/vscode_debug_launch_01.png)
+![启动程序](../img/vscode_debug_attach_01.png)
 
 3. 在调试模式下(`ctrl+shift+D`)，选择`附加到进程`选项，点击绿色箭头启动，此时vscode通过端口与node进行远程调试。
-![进行调试](../img/vscode_debug_launch_02.png)
+![进行调试](../img/vscode_debug_attach_02.png)
 
 
 ## 其他
