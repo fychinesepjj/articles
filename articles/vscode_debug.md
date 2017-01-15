@@ -2,7 +2,7 @@
 
 ## 调试分类
 * Launch模式: 直接调试，vscode直接运行js文件，下断点进行调试。
-* Attach模式: 附加进程调试，需要先运行node文件，并附带`---debug`或`--debug-brk`参数，进行调试。
+* Attach模式: 附加进程调试，需要先运行node文件，并附带`--debug-brk`参数，进行调试。
 
 ## Launch模式
 1. 在代码中创建断点，如`app.js`。
@@ -21,3 +21,4 @@
 
 ## 其他
 * `${workspaceRoot}`等变量由vscode定义，具体可参考[官方文档](http://code.visualstudio.com/Docs/editor/debugging)。
+* `Node`更多调试方法可查看[文章](http://www.cnblogs.com/dolphinX/p/3485345.html)
