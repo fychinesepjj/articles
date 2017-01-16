@@ -4,6 +4,7 @@
 1. 支持原生ES6模块加载语法`import`, `export`, `System.import`
 2. 支持ES6和AMD,CommandJs一起使用
 3. webpack配置`resolve`节点发生变化：
+
     ```javascript
     // webpack 1.0
     resolve: {
@@ -25,6 +26,7 @@
 ## 插件
 * `webpack.optimize.OccurenceOrderPlugin` => `webpack.optimize.OccurrenceOrderPlugin` 修复命名错误。
 * `ExtractTextPlugin`需要更新到支持`webpack2`版本，并且语法发生变化。
+
     ```javascript
     // webpack 1.0
     ExtractTextPlugin.extract('style', 'css?minimize!sass', {publicPath: "../"});
