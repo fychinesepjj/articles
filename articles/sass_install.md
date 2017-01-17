@@ -4,6 +4,7 @@
 
 ## 关于Sass
 `sass`安装分为两种：
+
 1. `Sass`命令行
 2. `Sass`插件
 
@@ -14,6 +15,7 @@
 **Sass插件**
 
 通过与其他工具配合使用（webpack，gulp等），通常在安装过程中需要编译源码，常用的插件有：
+
 1. `sass-loader`
 2. `gulp-sass`
 
