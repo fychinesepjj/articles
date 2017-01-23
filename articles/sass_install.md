@@ -25,7 +25,7 @@
 1. 安装python2.7
 2. 安装[.net framework 4.5.1+](https://www.microsoft.com/en-us/download/details.aspx?id=40773)
 3. 安装Microsoft Visual C++ Build Tools：
-   * [下载地址1](http://landinghub.visualstudio.com/visual-cpp-build-tools)，如安装过程中包下载失败请尝试,下载地址2。
+   * [下载地址1](http://landinghub.visualstudio.com/visual-cpp-build-tools)，如安装过程中包下载失败请使用下载地址2
    * [下载地址2](http://www.microsoft.com/en-us/download/details.aspx?id=48159)
 4. 执行`npm config set python python2.7`，`npm config set msvs_version 2015 --global`命令
 5. 最后才安装`sass`插件
