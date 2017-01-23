@@ -59,4 +59,4 @@ gulp.task("watch:sass",function(){
 * `linux`下通过：`rename .css .wxss *.css`(`rename 原字符串 新字符串 文件名`)
 
 ## 其他
-在`windows`下安装`gulp-sass`可能会出现各种编译问题，具体可参考文章: [SASS安装过程中的一些问题解决](./articles/sass_install.md)
+在`windows`下安装`gulp-sass`可能会出现各种编译问题，具体可参考文章: [SASS安装过程中的一些问题解决](./sass_install.md)
