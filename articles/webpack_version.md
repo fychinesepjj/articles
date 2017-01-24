@@ -24,7 +24,7 @@
     ```
 
 ## 插件
-* `webpack.optimize.OccurenceOrderPlugin` => `webpack.optimize.OccurrenceOrderPlugin` 修复命名错误。
+* `webpack.optimize.OccurenceOrderPlugin` => `webpack.optimize.OccurrenceOrderPlugin` 修复命名错误，webpack v2 默认加载。
 * `ExtractTextPlugin`需要更新到支持`webpack2`版本，并且语法发生变化。
 
     ```javascript
@@ -35,7 +35,8 @@
     ExtractTextPlugin.extract({fallbackloader: 'style-loader', loader: 'css?minimize!sass', publicPath: "../"});
     ```
 
-## 参考
+## 更多参考
+* [从 webpack v1 迁移到 webpack v2](http://web.jobbole.com/90058/)
 * [webpack2.0 变化（英）](https://gold.xitu.io/entry/56b0623cc14061005a028d08)
 * [webpack2.0 变化（中）](https://mp.weixin.qq.com/s?__biz=MzIyMjE0ODQ0OQ==&mid=402764877&idx=1&sn=aa40a80bb1920a80fc187e8df99c4824)
 * [webpack2.0 优化](http://www.open-open.com/lib/view/open1483317889255.html)
